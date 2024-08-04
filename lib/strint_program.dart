@@ -6,3 +6,4 @@ print(age.length);//This is how we get the length of string
 print(index.length);
 print(age[6]);
 }
+

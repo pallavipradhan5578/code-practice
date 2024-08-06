@@ -3,7 +3,7 @@
   bool smaller , greator , equal , smallerorequal , greatororequal, notequal;
 
   // operators  : < , > , == , <= ,!= 
-  // relatinals : < , > , <= , >=
+  // relationals : < , > , <= , >=
   //eqality     : == , !=
   smaller = x < y ;
   greator = x > y ;

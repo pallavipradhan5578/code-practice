@@ -1,8 +1,8 @@
 void main(){
-  int x = 10, y = 30;
+  int x = 10, y = 330;
   bool result = true;
-  bool resultDivide = false;
+  bool resultDivide = true;
 print(result = x < y);
-print (resultDivide= y/x ==2); 
+print (resultDivide= y/x ==3); 
 
 }

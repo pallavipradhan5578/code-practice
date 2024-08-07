@@ -1,0 +1,7 @@
+void main(){
+int x = 30; , y = 25;
+resultOne = x>y;
+if(x>y){
+    print(result);
+}
+}

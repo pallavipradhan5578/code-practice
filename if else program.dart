@@ -1,5 +1,5 @@
  void main(){
-  int x = 61  ; 
+  int x = 20  ; 
   if (x %2 ==0){
   print('$x is even number');
   }else{
@@ -9,9 +9,9 @@
 
    int z= 20, y = 30;
   if(z<y){
-    print ("$z is greater then $y"); 
+    print ("$z is smaller then $y"); 
   }else {
-  print ("$z is less then $y");}
+  print ("$z is greater then $y");}
   
     
   }

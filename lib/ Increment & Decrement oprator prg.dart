@@ -15,7 +15,7 @@ void main()
   int y = 100;
 
   print(y++);//written fir increment what's why print 1oo not 101
-  print(y--);//written fir increment what's why print 1o1 not 100
+  print(y--);//written fir decrement what's why print 1o1 not 100
   
 
 

@@ -6,7 +6,6 @@ void main (){
   print(age[2]);
   print(name[2]);
 
-}
-  print(name[2]);
 
-}
+  print(name[2]);}
+

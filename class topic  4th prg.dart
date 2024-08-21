@@ -5,17 +5,19 @@ void main(){
   student1.age=22;
   student1.grade="B";
   student1.fatherName="Ramsubhash Pradhan";
+  student1.motherName="Anandita";
 student1.displayInfo();
 student1.updateGrade("A");
 student1.displayInfo();
 
 }
 class Student{
-  String? name,fatherName,grade;
+  String? name,fatherName,grade, motherName;
   int?  age,studentID;
   void displayInfo(){
     print("Name : $name");
-    print("Fathername : $fatherName");
+    print("Fathername : $fatherName")  ;
+    print("Mothername : $motherName");  
     print("Student ID : $studentID ");
     print("Age : $age");
     print("Grade :$grade");
@@ -23,6 +25,6 @@ class Student{
     void updateGrade(String newGrade){
       grade = newGrade;
       print("Grade updated $newGrade for $name");
-
     }
+    
   }

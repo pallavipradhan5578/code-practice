@@ -1,12 +1,14 @@
 void main(){ 
   Student student=Student("Atif Taj");
-  student.name=("Asif");
+  //student.name=("Asif");
   student.displayInfo();
 
 }class Student{
   String? name; int? age;
   Student(String name){
-    print("called");print(name);}
+    print("called");
+    name=name;
+    print(name);}
     void displayInfo(){
       print("----------------------");
       print("Name : $name");

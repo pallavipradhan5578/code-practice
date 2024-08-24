@@ -7,7 +7,7 @@ Student("kashif Taj",55),
   ];
   name.forEach((element)
   {
-    print(element.name);
+    print('name ${element.name} age ${element.age}');
   });
 
 }class Student{

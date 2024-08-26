@@ -4,8 +4,7 @@ void main(){
   person.name="Asif taj";
   person.age=25;
   person.displayInfo();*/
-
-Student student= Student();zww
+ Student student= Student();
   student.name="Asif taj";
   student.age=25;
   student.displayInfo();

@@ -1,4 +1,4 @@
-void main(){ 
+/*void main(){ 
   Student student=Student("Atif Taj");
   student.name=("Asif Taj");
   student.displayInfo();
@@ -12,5 +12,15 @@ void main(){
       print("Name : $name");
       print("Age : $age");print("----------------------");
       
+  }*/void main() {
+  int z=56;
+  if(z%2==0){
+    print("$z is even number ");
+    
+  }else{
+    print("$z is odd number");
   }
-  }
+
+}
+
+  

@@ -22,9 +22,11 @@ void main(){
     print("Sum : $result");
     }int add(int a,int b){
     return a+b;*/
+// 4th prg
     List<String>fruit=["Apple","Banana","Mango"];
     fruit.add("Orange");print("These are my favourite fruits:$fruit");
     print(fruit.length);
     print(fruit[2]);
+
 
 }

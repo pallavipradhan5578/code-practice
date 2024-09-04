@@ -6,9 +6,10 @@ void main(){
   print("$celsius  degree celsius is eual to $fohrenheit");
   int age=22;
   double height=5.2;
-  String FatherName="Taj Gul",studentName='Asif Taj';
+  String fatherName="Taj Gul",studentName='Asif Taj';
   var motherName="Nur Ahmed";
+
 bool isStudent=true;
 print("Studentname : $studentName");
-print("Fathername : $FatherName\nMothername : $motherName\nHeight : $height\nStudent pass : $isStudent \nAge : $age");
+print("Fathername : $fatherName\nMothername : $motherName\nHeight : $height\nStudent pass : $isStudent \nAge : $age");
 }

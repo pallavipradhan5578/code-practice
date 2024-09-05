@@ -1,10 +1,13 @@
- 
- import'dart:io';
- void greet( String name){
-  print("Enter name:");
- // String? name=stdin.readLineSync();
-  print("Hello $name");
+
+ void checkPrimeNum( int? num,int num2,){
+  num=6;
+  num2=1;
+   bool  result=num/num2==num;
+  if( result =num/num2==num&&num/num==1){print("$num is prime number");}else{
+    print("$num is not a prime number");
+  }
+  
 }
 void main(){
-  greet("pallavi");
+  checkPrimeNum(6,1);
 }

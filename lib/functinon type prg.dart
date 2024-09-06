@@ -1,12 +1,14 @@
 void main(){
 Sum sum=Sum();
+//funtion with no parameter and no return
 sum.sum();
-Substraction substraction=Substraction(16, 8);
+
+Substraction substraction=Substraction(16, 8);// function with parameter and no return
 Multiplication multiplication=Multiplication();
-multiplication.multiple(16,8);
+multiplication.multiple(16,8);//function with parameter and return
 int a =16,b=8,c=a*b;
 print(c);
-Division division=Division();
+Division division=Division();//function with return and no parameter
 double divide,x=16,y=8;
 divide=x/y;
 print(divide);

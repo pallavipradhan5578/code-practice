@@ -40,9 +40,9 @@ class Person{
     String? name,fatherName;
     bool? isStudent;
     void displayInfo(){
-     print("My name is ${name}");
-      print("My fathername is ${fatherName}");
-      print("My age is ${age}");}
+     print("My name is $name");
+      print("My fathername is $fatherName");
+      print("My age is $age");}
   } 
     
   

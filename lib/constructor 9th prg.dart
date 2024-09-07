@@ -9,8 +9,8 @@ Student( name :"priya", email:"pallvi@gmail", age : 45)];
  //student.age=22;
  //student.email="Palllavi@gmail.com";
 //student.displayInfo();
-name.forEach((element){
-  print('name : ${element.name} age  ${element.age} email  ${element.email}');});}
+for (var element in name) {
+  print('name : ${element.name} age  ${element.age} email  ${element.email}');}}
 
 class Student{
   String? name,email;

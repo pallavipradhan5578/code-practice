@@ -5,10 +5,9 @@ Student("Atif",45),
 Student("kashif Taj",55),
 
   ];
-  name.forEach((element)
-  {
+  for (var element in name) {
     print(element.name);
-  });
+  }
 
 }class Student{
   String? name;int? age;
@@ -20,7 +19,7 @@ Student("kashif Taj",55),
   }
   void displayInfo(){
     print("------------------------------------------");
-    print("Name : ${name}");
+    print("Name : $name");
     print("Age :$age");
     print("------------------------------------------");
   }

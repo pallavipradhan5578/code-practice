@@ -14,7 +14,7 @@ class Area{
 
       }
     double areaOfRectangle=width!*height!;
-    print("aread: "+areaOfRectangle.toString());
+    print("aread: $areaOfRectangle");
     }catch(e){
       print (e);
 

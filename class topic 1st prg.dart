@@ -7,9 +7,9 @@ class Person{
   String  fatherName ="Ramsubhash Pradhan";
   int age= 22;
   void displayInfo(){
-  print("My name is ${name}");
-  print("My father name is ${fatherName}");
-  print("My age is ${age}");
+  print("My name is $name");
+  print("My father name is $fatherName");
+  print("My age is $age");
 
   }
 }

@@ -8,9 +8,9 @@ class Person with Logger,Validation{
   void displayInfo(){
     if(validatePassword(password)!= null){
 log(validatePassword(password).toString());
-    }else
-
-  log('User email ${email} and password is $password');
+    }else {
+      log('User email $email and password is $password');
+    }
 }
   
 

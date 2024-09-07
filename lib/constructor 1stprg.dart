@@ -11,7 +11,7 @@ class Student{
   void displayInfo()
   
   {
-    print("------------------------------");print("Name: ${name}");print("Age : $age");
+    print("------------------------------");print("Name: $name");print("Age : $age");
     print("------------------------------");
   }
 }

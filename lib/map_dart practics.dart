@@ -3,7 +3,7 @@ void main(){
     'key': "pallavi",
     'key1' : 22,
     'key2':"bihar",
-    'key3':'true'
+    'key3':'true'-
     };
     print(map_name['key1']);
     map_name['key1']='raman';//for overright key1

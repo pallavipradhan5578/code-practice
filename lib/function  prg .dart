@@ -1,8 +1,8 @@
 void main(){
 day();
 }
-void day(){
+String? day(){
   String? dayname="Sunday";
-  print("Today is  $dayname");
-
+ // print("Today is  $dayname");
+return dayname;
 }

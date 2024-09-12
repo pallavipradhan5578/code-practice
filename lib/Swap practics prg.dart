@@ -1,6 +1,6 @@
 void main(){
-  int x=12,y=10;
-  print("Before swaping:-");
+  int x=120,y=67;
+  print("Before swapping:-");
   print("x = $x");
   print("y = $y");
   x=x+y;

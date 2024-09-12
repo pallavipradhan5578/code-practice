@@ -7,5 +7,9 @@ void main (){
   print(name[2]);
 
 
-  print(name[2]);}
+  print(name[2]);
+  
+  print("Reversed : ${name.reversed.toList()}");
+  print(name);
+  }
 

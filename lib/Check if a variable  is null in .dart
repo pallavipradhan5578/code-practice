@@ -1,5 +1,5 @@
 void main(){
-  String variable="12"
+String    variable="12"
 ;
 
   if(variable==null){print("the variable is null");}

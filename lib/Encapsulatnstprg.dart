@@ -1,3 +1,5 @@
+import 'package:dart_programs/mixin%201%20%20prg.dart';
+
 void main(){
 /*Person person=Person("Asif taj",24);
 person.displayInfo();

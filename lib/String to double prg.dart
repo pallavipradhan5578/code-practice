@@ -1,4 +1,9 @@
-void main(){ 
+
+import 'dart:io';
+
+void main(){
+  constructor();}
+void constructor(){ 
   Student student=Student("Atif Taj");
   student.name=("Asif Taj");
   student.displayInfo();
@@ -11,17 +16,11 @@ void main(){
       print("----------------------");
       print("Name : $name");
       print("Age : $age");print("----------------------");
-      
-  void main() {
-  int z=56;
-  if(z%2==0){
-    print("$z is even number ");
+      print("Enter a decimal number :");
     
-  }else{
-    print("$z is odd number");
-  }
-
-}
-
-  
+  String input = stdin.readLineSync()!;
+  double number=double.parse(input);
+  double result=number*2;
+  print("Original number : $number");
+  print("After multiplication by 2 : $result");
     }}

@@ -33,7 +33,7 @@ class Library{
 void loansBook(Book book,Member member){
   if(book.isAvilable){
   book.isAvilable=false;
-  loans.add(Loan(book,member,DateTime.now()));
+  loans.add(Loan(book,member,DateTime.now(),DateTime.now()));
  }else{
     print("${book.title} is nit avaible");
   }

@@ -1,10 +1,7 @@
 void main(){
   print(findmaximumnumber());
 }
-int void main(){
- add(20,30); 
-
-}add(int a,int b){
+add(int a,int b){
   int c =a+b;
   print(c);
 
